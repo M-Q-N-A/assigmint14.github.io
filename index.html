@@ -34,7 +34,7 @@
   ]
     function adduser(){
     person.push({name: "Name:" + prompt("enter the name"),Email:"Email:" + prompt("enter the email"),age: "Age:" + prompt("enter the age")})
-  let a = (person.map((elements)=>{return `<div> ${elements.name} <br/> ${elements.age}<br/> ${elements.birthday}</div> <br`}))  
+  let a = (person.map((elements)=>{return `<div> ${elements.name} <br/> ${elements.Email}<br/> ${elements.age}</div> <br`}))  
 document.getElementById("user").innerHTML = a  
 }
     </script>
